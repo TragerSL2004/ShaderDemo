@@ -45,14 +45,14 @@ Material:
     - _Distortion: 0.725
     - _DstBlend: 0
     - _DstBlendAlpha: 0
-    - _MoveSpeed: 0.36
+    - _MoveSpeed: 1
     - _QueueControl: 0
     - _Smoothness: 0.5
     - _SrcBlend: 1
     - _Surface: 0
     - _Transparency: 0.527
     - _VertexDisplacement: 1.02
-    - _WaveStrength: 1
+    - _WaveStrength: 0.5
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}

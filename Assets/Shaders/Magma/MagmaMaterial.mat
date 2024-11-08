@@ -109,7 +109,7 @@ Material:
     - _ReceiveShadows: 1
     - _RimIntensity: 0
     - _RimPower: 0
-    - _RockDensity: 4
+    - _RockDensity: 5
     - _RockMovement: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
