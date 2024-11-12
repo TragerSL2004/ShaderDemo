@@ -695,7 +695,7 @@
     "m_Value": 0.5,
     "m_FloatType": 1,
     "m_RangeValues": {
-        "x": 0.5,
+        "x": 0.009999999776482582,
         "y": 1.0
     }
 }
@@ -4624,7 +4624,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "AlphaClipThreshold",
     "m_StageCapability": 2,
-    "m_Value": 0.5,
+    "m_Value": 0.009999999776482582,
     "m_DefaultValue": 0.5,
     "m_Labels": []
 }

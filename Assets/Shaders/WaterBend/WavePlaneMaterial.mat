@@ -51,7 +51,7 @@ Material:
     - _Smoothness: 0.5
     - _SrcBlend: 1
     - _Surface: 0
-    - _Transparency: 0.5
+    - _Transparency: 0.1
     - _VertexDisplacement: 1.02
     - _WaveStrength: 0.663
     - _ZWrite: 1
