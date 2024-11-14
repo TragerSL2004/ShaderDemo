@@ -86,7 +86,7 @@ Material:
     - _AlphaToMask: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
-    - _BubbleSize: 1
+    - _BubbleSize: 0.669
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
@@ -109,7 +109,7 @@ Material:
     - _ReceiveShadows: 1
     - _RimIntensity: 0
     - _RimPower: 0
-    - _RockDensity: 5
+    - _RockDensity: 3.5
     - _RockMovement: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0

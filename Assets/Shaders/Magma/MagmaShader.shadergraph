@@ -17,6 +17,9 @@
         },
         {
             "m_Id": "ec4bfd434e454fb182b6c8728602625a"
+        },
+        {
+            "m_Id": "372b43898ef04bf1853265aab1a72f74"
         }
     ],
     "m_Keywords": [],
@@ -41,9 +44,6 @@
         },
         {
             "m_Id": "3a3916999f774d2987ba1e3249738eed"
-        },
-        {
-            "m_Id": "acfd80ff3392479590523ffa37bf5442"
         },
         {
             "m_Id": "21fb5f8c47544800b492f81e6bab2ecf"
@@ -113,6 +113,12 @@
         },
         {
             "m_Id": "77da1cce1d7045978626c8347dd9669b"
+        },
+        {
+            "m_Id": "9102189a0da449c0990acdb10d4b98ab"
+        },
+        {
+            "m_Id": "ff8fc3f753e14da6a23ac6f98e7db87f"
         }
     ],
     "m_GroupDatas": [
@@ -120,7 +126,29 @@
             "m_Id": "cb8f5b2252834c53a7dbdfa750f0a4f3"
         }
     ],
-    "m_StickyNoteDatas": [],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "0173d8ee2b9c44d7bb8d04f98a707006"
+        },
+        {
+            "m_Id": "37fe31222bc84b7f88bcfffea57e067a"
+        },
+        {
+            "m_Id": "9de9da90abbb458cbb48cd2d8d83d4b1"
+        },
+        {
+            "m_Id": "ef585d8b3e9348f49c0614d547a53ceb"
+        },
+        {
+            "m_Id": "d643e60c804542258d1e0078a628ed5e"
+        },
+        {
+            "m_Id": "1853af4e56f04d719dabc8e244aec6f4"
+        },
+        {
+            "m_Id": "2de712aebe6742f583c8baca6056b8d5"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -349,6 +377,20 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
+                    "m_Id": "9102189a0da449c0990acdb10d4b98ab"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "8bbdc95a79d844d3a254dcecf4bc898f"
+                },
+                "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
                     "m_Id": "acb786b93591437ea05945b2e48e8d9c"
                 },
                 "m_SlotId": 2
@@ -433,9 +475,6 @@
                 "m_Id": "3a3916999f774d2987ba1e3249738eed"
             },
             {
-                "m_Id": "acfd80ff3392479590523ffa37bf5442"
-            },
-            {
                 "m_Id": "21fb5f8c47544800b492f81e6bab2ecf"
             },
             {
@@ -443,6 +482,9 @@
             },
             {
                 "m_Id": "a7d1b23654964475b1570e3248ad61cd"
+            },
+            {
+                "m_Id": "ff8fc3f753e14da6a23ac6f98e7db87f"
             }
         ]
     },
@@ -465,6 +507,26 @@
             "m_Id": "3f2e1227f8fc4162b8296f9faa4b4994"
         }
     ]
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "0173d8ee2b9c44d7bb8d04f98a707006",
+    "m_Title": "Lava Glow",
+    "m_Content": "Modify the amount of glow from the lava.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -651.0,
+        "y": 456.0,
+        "width": 214.5150146484375,
+        "height": 73.54998779296875
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {
@@ -764,6 +826,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "1853af4e56f04d719dabc8e244aec6f4",
+    "m_Title": "Distortion's Speed",
+    "m_Content": "Changes the speed at which the material will change shape.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -2703.0,
+        "y": -397.0,
+        "width": 200.0,
+        "height": 66.99433898925781
+    },
+    "m_Group": {
+        "m_Id": "cb8f5b2252834c53a7dbdfa750f0a4f3"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "1a265b65254f43ba823759839901a1f8",
     "m_Id": 1,
@@ -774,6 +856,21 @@
     "m_StageCapability": 3,
     "m_Value": 2.0,
     "m_DefaultValue": 2.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "1d49907fad614f8c87d4e66d36de529e",
+    "m_Id": 0,
+    "m_DisplayName": "GlowIntensity",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
     "m_Labels": []
 }
 
@@ -1015,6 +1112,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "2de712aebe6742f583c8baca6056b8d5",
+    "m_Title": "Rock Settings",
+    "m_Content": "Change the speed the \"rock\" cells move around and the amount of cells included on the material.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1182.0,
+        "y": 309.0,
+        "width": 157.99993896484376,
+        "height": 99.99996948242188
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
     "m_ObjectId": "302d354806a147f3861a4672f60112c3",
     "m_Id": 2,
@@ -1113,6 +1230,34 @@
 }
 
 {
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "372b43898ef04bf1853265aab1a72f74",
+    "m_Guid": {
+        "m_GuidSerialized": "6daf5d45-b5f2-44d3-a2fd-8729aa7bca69"
+    },
+    "m_Name": "GlowIntensity",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "GlowIntensity",
+    "m_DefaultReferenceName": "_GlowIntensity",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": 12.0,
+    "m_FloatType": 1,
+    "m_RangeValues": {
+        "x": 1.0,
+        "y": 20.0
+    }
+}
+
+{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
     "m_ObjectId": "3730b3fb2c6a419fa9d421e5e89c7f81",
@@ -1157,6 +1302,26 @@
         "e31": 0.0,
         "e32": 0.0,
         "e33": 1.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "37fe31222bc84b7f88bcfffea57e067a",
+    "m_Title": "Lava Color",
+    "m_Content": "Changes the color of the space between each cell to the chosen color in material inspector.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -394.0,
+        "y": 429.0,
+        "width": 200.00001525878907,
+        "height": 65.70001220703125
+    },
+    "m_Group": {
+        "m_Id": ""
     }
 }
 
@@ -1684,6 +1849,21 @@
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "5c59db2603ab44e3a44af14f0c385305",
+    "m_Id": 0,
+    "m_DisplayName": "Metallic",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Metallic",
+    "m_StageCapability": 2,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "5f704eab208c47708e3a1813a12614de",
     "m_Id": 4,
     "m_DisplayName": "Smooth Delta",
@@ -1706,21 +1886,6 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
     "m_StageCapability": 3,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "6451ddaee23d449cbc4c701b1c543b1c",
-    "m_Id": 0,
-    "m_DisplayName": "Metallic",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Metallic",
-    "m_StageCapability": 2,
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
@@ -2344,6 +2509,42 @@
 }
 
 {
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "9102189a0da449c0990acdb10d4b98ab",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -824.0,
+            "y": 470.0000305175781,
+            "width": 147.0,
+            "height": 33.999969482421878
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "1d49907fad614f8c87d4e66d36de529e"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "372b43898ef04bf1853265aab1a72f74"
+    }
+}
+
+{
     "m_SGVersion": 1,
     "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
     "m_ObjectId": "994463c09a174c079dd89df593fdea26",
@@ -2463,6 +2664,26 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "9de9da90abbb458cbb48cd2d8d83d4b1",
+    "m_Title": "Distortion Shape",
+    "m_Content": "Changes the way the vertices will move and material will reshape.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1714.0,
+        "y": -363.0,
+        "width": 200.0,
+        "height": 18.54998779296875
+    },
+    "m_Group": {
+        "m_Id": "cb8f5b2252834c53a7dbdfa750f0a4f3"
+    }
 }
 
 {
@@ -2631,40 +2852,6 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.BlockNode",
-    "m_ObjectId": "acfd80ff3392479590523ffa37bf5442",
-    "m_Group": {
-        "m_Id": ""
-    },
-    "m_Name": "SurfaceDescription.Metallic",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": 0.0,
-            "y": 0.0,
-            "width": 0.0,
-            "height": 0.0
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "6451ddaee23d449cbc4c701b1c543b1c"
-        }
-    ],
-    "synonyms": [],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_DismissedVersion": 0,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_SerializedDescriptor": "SurfaceDescription.Metallic"
 }
 
 {
@@ -2859,7 +3046,7 @@
     "m_ShaderOutputName": "B",
     "m_StageCapability": 3,
     "m_Value": {
-        "e00": 12.0,
+        "e00": 1.0,
         "e01": 2.0,
         "e02": 2.0,
         "e03": 2.0,
@@ -3017,6 +3204,9 @@
             "m_Id": "a82ffcba014e4decae31053c51f82b3d"
         },
         {
+            "m_Id": "372b43898ef04bf1853265aab1a72f74"
+        },
+        {
             "m_Id": "735b8029ed6b4923ba0dd8b0beba45fd"
         }
     ]
@@ -3167,6 +3357,26 @@
     },
     "m_Labels": [],
     "m_Space": 0
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "d643e60c804542258d1e0078a628ed5e",
+    "m_Title": "Resize",
+    "m_Content": "Changes the strength of the distortion to create rougher or softer movement in the material.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1316.0,
+        "y": -575.0,
+        "width": 169.0,
+        "height": 100.0
+    },
+    "m_Group": {
+        "m_Id": "cb8f5b2252834c53a7dbdfa750f0a4f3"
+    }
 }
 
 {
@@ -3443,6 +3653,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "ef585d8b3e9348f49c0614d547a53ceb",
+    "m_Title": " Combine Displacement and Position",
+    "m_Content": "Add the shape of the distortions with the position of the current object to create a position that both moves and is at the location of the attached object.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -475.0,
+        "y": -679.0,
+        "width": 268.0,
+        "height": 110.54998779296875
+    },
+    "m_Group": {
+        "m_Id": "cb8f5b2252834c53a7dbdfa750f0a4f3"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "f23376b3bc4d44cb80d23cc88c31d770",
     "m_Id": 4,
@@ -3528,5 +3758,39 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BlockNode",
+    "m_ObjectId": "ff8fc3f753e14da6a23ac6f98e7db87f",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "SurfaceDescription.Metallic",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "5c59db2603ab44e3a44af14f0c385305"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedDescriptor": "SurfaceDescription.Metallic"
 }
 
